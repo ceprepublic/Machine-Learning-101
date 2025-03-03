@@ -6,6 +6,7 @@ from sklearn.decomposition import PCA
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 # for visualization
 from sklearn.metrics import plot_confusion_matrix
+# the dictionary below is made due to see which model has best performance, "solvers and iteration numbers
 p = [
      {'C' : range(1,10), 'solver' : ['sag'], 'penalty' : ['l2']}, #'max_iter' : range(1000, 3000)},
      {'C' : range(1,10), 'solver' : ['newton-cg', 'lbfgs'], 'penalty' : ['l2']},# 'max_iter' : range(1000, 3000)},
