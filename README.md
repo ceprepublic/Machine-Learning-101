@@ -8,8 +8,6 @@ This comprehensive repository showcases implementations of various machine learn
 - [Datasets Used](#datasets-used)
 - [Results & Comparisons](#results--comparisons)
 - [Installation & Usage](#installation--usage)
-- [Detailed Analysis](#detailed-analysis)
-- [Contributing](#contributing)
 - [Classification Metrics](#classification-metrics)
 
 ## Overview
@@ -142,6 +140,8 @@ This project serves as a comprehensive guide to understanding and implementing m
 | Decision Trees    | 25.040  | 5.004   | 0.698    | 3.542  | 0.701            |
 | Random Forest     | 18.432  | 4.293   | 0.812    | 2.983  | 0.815            |
 
+## Installation & Usage
+You could directly download this repo and run the main PROJECT.ipynb file accordingly. All algortihms implemented independently as a functions and called at main file. It is important that all files should be in the same folder.
 ## Classification Metrics
 
 ### Accuracy (94-98%)
